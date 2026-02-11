@@ -1,5 +1,9 @@
 # WORLD Strategy ($WORLD)
 
+<img width="1792" height="576" alt="Gemini_Generated_Image_5wteg35wteg35wte" src="https://github.com/user-attachments/assets/af3a9b8f-ac90-4510-a7bf-e36ab4f27ea0" />
+
+X: https://x.com/WORLDStrategyy
+
 **"The world is a memecoin, so let's build it transparently."**
 
 WORLD Strategy est un **token crypto-natif de trésorerie** qui route les frais de créateur dans une trésorerie transparent et suivi onchain. La trésorerie est allouée de façon algorithmique à travers des actifs mondiaux diversifiés—ETFs, matières premières, indices boursiers principaux, et proxies d'actifs réels (RWA)—construisant un **memecoin soutenu par la trésorerie** avec un vrai soutien économique.
