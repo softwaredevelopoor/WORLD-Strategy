@@ -1,5 +1,9 @@
 # WORLD Strategy ($WORLD)
 
+<img width="1792" height="576" alt="Gemini_Generated_Image_5wteg35wteg35wte" src="https://github.com/user-attachments/assets/e277be8a-e624-4caa-8794-cd42c298447a" />
+
+https://x.com/WORLDStrategyy
+
 "The world is a memecoin, so let's build it transparently."
 
 WORLD Strategy is a crypto-native treasury token that routes creator fees into a transparent, onchain-tracked treasury. The treasury is allocated algorithmically across diversified global assets including equity indexes, commodities, and real-world asset (RWA) proxies. The goal is a memecoin backed by a transparent treasury mechanism.
