@@ -1,0 +1,88 @@
+{
+  "algorithm_version": "1.0",
+  "network": "devnet",
+  
+  "fee_rate_bps": 200,
+  "fee_recipient": "TreasuryPDAPublicKeyPlaceholder",
+  
+  "allocation_interval_blocks": 1209600,
+  "allocation_threshold_usdc": 50000000000,
+  "max_per_cycle_usdc": 100000000000,
+  "slippage_limit_bps": 50,
+  "cooldown_blocks": 86400,
+  
+  "assets": [
+    {
+      "id": "SPX_INDEX",
+      "symbol": "SPX",
+      "name": "S&P 500 Index",
+      "mint": "SPX111111111111111111111111111111111",
+      "decimals": 6,
+      "weight": 0.40,
+      "min_allocation_usd": 5000000000,
+      "max_allocation_usd": null,
+      "description": "US Large-Cap Equities"
+    },
+    {
+      "id": "EMERGING_MARKETS",
+      "symbol": "EEM",
+      "name": "Emerging Markets Index",
+      "mint": "EEM111111111111111111111111111111111",
+      "decimals": 6,
+      "weight": 0.20,
+      "min_allocation_usd": 5000000000,
+      "max_allocation_usd": null,
+      "description": "Emerging Markets Growth"
+    },
+    {
+      "id": "GOLD",
+      "symbol": "GLD",
+      "name": "Gold",
+      "mint": "GLD111111111111111111111111111111111",
+      "decimals": 6,
+      "weight": 0.15,
+      "min_allocation_usd": 2000000000,
+      "max_allocation_usd": null,
+      "description": "Precious Metals Hedge"
+    },
+    {
+      "id": "RWA_BASKET",
+      "symbol": "RWA",
+      "name": "Real-World Assets",
+      "mint": "RWA111111111111111111111111111111111",
+      "decimals": 6,
+      "weight": 0.25,
+      "min_allocation_usd": 5000000000,
+      "max_allocation_usd": 30000000000,
+      "description": "Tokenized Real-World Assets"
+    }
+  ],
+  
+  "oracle_config": {
+    "type": "pyth",
+    "mainnet_network_id": "Example_Pyth_Network",
+    "devnet_mock": true,
+    "max_price_age_seconds": 60,
+    "confidence_limit_percent": 10
+  },
+  
+  "dex_config": {
+    "aggregator": "jupiter",
+    "slippage_tolerance_bps": 50,
+    "use_best_route": true
+  },
+  
+  "keeper_config": {
+    "check_interval_ms": 30000,
+    "log_level": "info",
+    "dry_run": true,
+    "health_check_interval_ms": 60000
+  },
+  
+  "circuit_breaker_config": {
+    "enabled": true,
+    "pause_on_error": true,
+    "max_consecutive_failures": 3,
+    "failure_reset_hours": 24
+  }
+}
